@@ -1,0 +1,466 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Work+Sans&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: content-box;
+}
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+/*the header section*/
+.nav-container{
+    width: 100%;
+    height: 70px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+
+}
+.logo-container{
+
+display: flex;
+width: 50%;
+}
+.logo-container img{
+    width: 40px;
+    margin-left: 100px;
+}
+
+.logo-container p{
+    font-size: 30px;
+    margin-left: 10px;
+    color: #0B0223;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.nav-items{
+    width: 50%;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   margin-right: 100px;
+}
+.nav-items p{
+    font-size: 10px;
+    margin-left: 20px;
+}
+.btn-content{
+    width: 150px;
+    height: 30px;
+    display: flex;
+    font-size: 10px;
+    border-radius: 5px;
+    margin-left: 20px;
+    border: none;
+text-align: start;
+align-items: center;    
+}
+.btn-content p{
+    margin-left: 20px;
+}
+ .btn-icon-1{
+       color: #F61C0D;
+       margin-left: 20px;
+      }
+.btn-icon-2{
+    margin-left: 10px;
+}
+/*the header section end*/
+
+/*the banner section starts*/
+.banner-section{
+    width: cover;
+    height: 600px;
+    display: flex;
+    }
+
+.banner-part-1{
+width: 50%;
+background-image: url(images/Group\ 14.png);
+}
+.banner-text{
+position: relative;
+text-align: center;
+top: 100px;
+}
+.text-part-1{
+    color: #0B0223;
+font-size: 30px;
+font-weight: 600;
+text-transform: uppercase;
+}
+.text-part-2{
+    font-size: 60px;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase; 
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+margin-top: 10px;
+}
+.banner-icon{
+
+  display: flex;
+position: relative;
+left: 300px;
+margin-top: 20px;
+   
+}
+.banner-icon p{
+    margin-left: 10px;
+}
+.btn-1{
+    padding: 16px 35px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 48px;
+background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+border: none;
+color: #FFF;
+font-size: 14px;
+font-weight: 200;
+line-height: normal;
+text-transform: uppercase;
+}
+.btn-2{
+    display: inline-flex;
+    padding: 16px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 48px;
+background: #4EC5F7;
+border: none;
+color: #FFF;
+font-size: 14px;
+font-style: normal;
+font-weight: 200;
+line-height: normal;
+text-transform: uppercase; 
+}
+
+.banner-img-2{
+width: 50%;
+
+}
+
+.banner-img-2 img{
+    height: 600px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.gaming-introduction{
+    width: cover;
+    height: 600px;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%); 
+    display: flex;
+    justify-content: space-around;
+   
+    
+}
+.gaming-introduction .image-section img{
+    width: 600px;
+    height: 489px; 
+    margin-left: 100px; 
+}
+.gaming-introduction-text{
+    text-align: right;
+    line-height: normal;
+    margin-right: 100px;
+
+}
+.text{
+    font-size: 48px;
+background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+margin-top: 100px;
+}
+.peragraph-text{
+    color: #534C64;
+text-align: right;
+font-size: 16px;
+font-weight: 400;
+line-height: 30px;
+}
+.btn{
+    display: inline-flex;
+padding: 21px 35px;
+align-items: flex-start;
+gap: 10px;
+border-radius: 48px;
+background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+border: none;
+    color: #FFF;
+    font-size: 10px;
+font-weight: 600;
+line-height: normal;
+text-transform: uppercase;
+}
+.text-2{
+    color: #534C64;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 45px; 
+}
+.span-text{
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 45px; 
+}
+.online-section{
+    color: #0B0223;
+    text-align: center;
+    font-size: 20px;
+       font-weight: 700;
+    margin-top: 100px; 
+}
+.online-text{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700px;
+}
+.peragraph-text-2{
+    color: #534C64;
+    text-align: center;
+     font-size: 16px;
+    font-weight: 400;
+    margin-top: 10px;
+    
+}
+.example-img{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 30px;
+  
+}
+.example-img img{
+    width: 250px;
+    height: 300px; 
+}
+
+.play-img-banner{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 300px;
+    margin-bottom: 0px;
+}
+.text-banner h1{
+    color: #0B0223;
+    font-size: 25px;
+font-style: normal;
+font-weight: 700;
+line-height: 30px;
+text-align: center;
+margin-left: 300px;
+margin-top: 100px;
+}
+.banner-span{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.play-text{
+    color: #534C64;
+    text-align: right;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; 
+}
+
+.bottom-img{
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+bottom: 200px;
+right: 100px;
+}
+
+
+.play-img-banner-2{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 100px;
+   
+}
+.play-text-1{
+    color: #534C64;
+    text-align: start;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; 
+}
+
+.text-banner-2{
+    margin-top: 100px;
+}
+.bottom-img-2{
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+bottom: 200px;
+left: 300px;
+}
+.play-section{
+   width: cover;
+    height: 600px;
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%); 
+    display: flex;
+    justify-content: space-between;
+
+}
+.text-box{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.heading{
+    margin-top: 100px;
+    margin-left: 200px;
+}
+.play-section-text{
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+.text-box li{
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 30px;
+}
+.list{
+    text-align:right;
+}
+.btn-play-section{
+    padding: 15px 30px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 48px;
+background: #FFF;
+border: none;
+color: #FF42A5;
+text-transform: uppercase;
+}
+.game-type{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   gap: 40px;
+   margin-right: 400px;
+   margin-left: 400px;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+.gaming-name{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 10px;
+    
+}
+.gaming-name img{
+width: 30px;
+height: 30px;
+}
+.gaming-name p{
+    color: #0B0223;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: normal;
+}
+.gaming-name:hover{
+    border: 1px solid blue;
+    width: 150px;
+height: 40px;
+border-radius: 30px;
+background: #FFF;
+}
+.footer-section{
+    margin-top: 100px;
+        width: cover;
+    height: 600px;
+    background: #0B0223;  
+}
+.footer-content {
+   padding-top: 200px;
+   margin-left: 500px;
+}
+.logo-container{
+    margin-left: 80px;
+}
+.footer-list{
+    list-style: none;
+    display: flex;
+    margin-top: 30px;
+    color: #FFFFFF;
+    gap: 41px;
+    font-size: 12px;
+    padding-right: 200px;
+}
+.icons{
+    margin-top: 30px;
+    margin-left: 90px;
+}
+.icons a i{
+    color: white;
+    width: 60px;
+    height: 80px;
+}
+.last-footer-list{
+    list-style: none;
+    display: flex;
+    font-size: 10px;
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    gap: 60px;
+    line-height: normal;
+}
+.footer-text{
+    color: rgba(255, 255, 255, 0.60);
+    margin-top: 20px;
+    margin-left: 100px;
+font-size: 10px;
+font-weight: 500;
+line-height: normal;
+}
